@@ -1,4 +1,4 @@
-<h1 align="center">You can access the project <a href="#" target="_blank">Clicking here</a></h1>
+<h1 align="center">You can access the project <a href="https://github.com/polashCSE/EduCom/home.html" target="_blank">Clicking here</a></h1>
 
 
 ---
