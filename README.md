@@ -1,4 +1,4 @@
-<h1 align="center">You can access the project <a href="https://brighty-nerd.vercel.app/" target="_blank">Clicking here</a></h1>
+<h1 align="center">You can access the project <a href="#" target="_blank">Clicking here</a></h1>
 
 
 ---
@@ -8,7 +8,7 @@
 
 ## Description
 
-Welcome to Educational Website! This is a educational website using HTML, CSS, and JavaScript to facilitate seamless navigation and optimal user experience. Dedicated blog section, allowing students to access and refer to study materials, articles, and educational resources •	Designed a user-friendly frontend with HTML and CSS to create an intuitive and visually appealing layout for courses. Responsive on various devices.
+To help you with CSE and Business Studies related topics
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ Welcome to Educational Website! This is a educational website using HTML, CSS, a
 
 # Installation 
 installation command
-<br/>  git clone <"https://github.com/Techwolf78/Educational-Website">
+GitHub Link
 
 # Usage
 For Students to learn and grow by having access to wide study materials. 
