@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduCom : Your Academic Assistant</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+
+        header, footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        section#pdf-section {
+            background: white;
+            padding: 20px;
+            margin: 30px auto;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        section#pdf-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .pdf-viewer {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        .download-btn {
+            display: flex;
+            justify-content: center;
+        }
+
+        .download-btn a {
+            background: #007BFF;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .download-btn a:hover {
+            background: #0056b3;
+        }
+    </style>
+
+
+
+
+
+</head>
+<body>
+
+
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html" class="logo"> <i class="fas fa-graduation-cap"></i> EduCom </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="about.html">about me</a></li>
+            <li><a href="#">courses +</a>
+                <ul>
+                    <li><a href="course-1.html">course 01</a></li>
+                    <li><a href="course-2.html">course 02</a></li>
+                    <li><a href="course-3.html">course 03</a></li>
+                </ul>
+            </li>
+           <li><a href="blog.html">blogs</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+
+
+<main>
+
+    <!-- Your other content -->
+
+    <section id="pdf-section">
+        <h2>View and Download PDF</h2>
+        <embed src="dmch2.pdf" type="application/pdf" class="pdf-viewer">
+
+        <div class="download-btn">
+            <a href="dmch2.pdf" download>Download PDF</a>
+        </div>
+    </section>
+
+    <!-- Your other content -->
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Owned by M M Yousuf Ali. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
